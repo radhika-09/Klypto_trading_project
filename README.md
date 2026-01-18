@@ -22,37 +22,37 @@ The project covers the entire trading pipeline:
 
 **End-to-End Workflow**
 
-Data Loading & Validation
-Load historical intraday market data
-Validate required columns
-Handle missing values and incorrect data types
-Feature Engineering
-Calculate technical indicators:
-EMA (5-period)
-EMA (15-period)
-Compute returns
-Prepare features for regime detection
-Signal Generation
-Generate buy/sell signals using EMA crossover logic
-Create a signal column based on EMA relationships
-Position Management
-Convert signals into positions (long / flat)
-Shift positions to avoid look-ahead bias
-Ensure clean trade execution logic
-Strategy Return Calculation
-Calculate strategy returns
-Remove invalid or zero-return trades
-Compute cumulative strategy performance
-Regime Awareness
-Detect market regimes based on market behavior
-Filter trades to execute only in favorable regimes
-Reduce overtrading during sideways or noisy markets
-Performance Evaluation
-Sharpe Ratio
-Maximum Drawdown
-Total Returns
-Win/Loss Ratio
-Number of Trades
+1. Data Loading & Validation
+2. Load historical intraday market data
+3. Validate required columns
+4. Handle missing values and incorrect data types
+5. Feature Engineering
+6. Calculate technical indicators:
+7. EMA (5-period)
+8. EMA (15-period)
+9. Compute returns
+10. Prepare features for regime detection
+11. Signal Generation
+12. Generate buy/sell signals using EMA crossover logic
+13. Create a signal column based on EMA relationships
+14. Position Management
+15. Convert signals into positions (long / flat)
+16. Shift positions to avoid look-ahead bias
+17. Ensure clean trade execution logic
+18. Strategy Return Calculation
+19. Calculate strategy returns
+20. Remove invalid or zero-return trades
+21. Compute cumulative strategy performance
+22. Regime Awareness
+23. Detect market regimes based on market behavior
+24. Filter trades to execute only in favorable regimes
+25. Reduce overtrading during sideways or noisy markets
+26. Performance Evaluation
+27. Sharpe Ratio
+28. Maximum Drawdown
+29. Total Returns
+30. Win/Loss Ratio
+31. Number of Trades
 
 **Tech Stack**
 
